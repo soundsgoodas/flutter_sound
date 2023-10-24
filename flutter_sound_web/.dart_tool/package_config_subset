@@ -1,3 +1,7 @@
+flutter_sound_platform_interface
+3.0
+file:///Users/stien/.pub-cache/git/flutter_sound-56f6051491a0054e9a7bf6e992bda7278342ff12/flutter_sound_platform_interface/
+file:///Users/stien/.pub-cache/git/flutter_sound-56f6051491a0054e9a7bf6e992bda7278342ff12/flutter_sound_platform_interface/lib/
 async
 2.18
 file:///Users/stien/.pub-cache/hosted/pub.dev/async-2.11.0/
@@ -86,10 +90,6 @@ web
 3.1
 file:///Users/stien/.pub-cache/hosted/pub.dev/web-0.1.4-beta/
 file:///Users/stien/.pub-cache/hosted/pub.dev/web-0.1.4-beta/lib/
-flutter_sound_platform_interface
-3.0
-file:///Users/stien/dev/choirmate/flutter_sound/flutter_sound_platform_interface/
-file:///Users/stien/dev/choirmate/flutter_sound/flutter_sound_platform_interface/lib/
 flutter_sound_web
 3.0
 file:///Users/stien/dev/choirmate/flutter_sound/flutter_sound_web/

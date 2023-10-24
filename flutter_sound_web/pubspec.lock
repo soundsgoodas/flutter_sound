@@ -57,9 +57,11 @@ packages:
   flutter_sound_platform_interface:
     dependency: "direct main"
     description:
-      path: "../flutter_sound_platform_interface"
-      relative: true
-    source: path
+      path: flutter_sound_platform_interface
+      ref: HEAD
+      resolved-ref: "56f6051491a0054e9a7bf6e992bda7278342ff12"
+      url: "https://github.com/soundsgoodas/flutter_sound.git"
+    source: git
     version: "9.2.13"
   flutter_test:
     dependency: "direct dev"
