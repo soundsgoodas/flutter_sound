@@ -7,20 +7,12 @@ permalink: changelog.html
 summary: The Changelog of The &tau; Project.
 toc: false
 ---
-## 9.2.13
 
-- Remove static variables `flutterSoundPlayermanager*` and `flutterSoundRecorderManager*` [#895](https://github.com/Canardoux/flutter_sound/issues/895). Static variables are total evil!.
-- [Korean girls stands with Ukraine](https://flutter-sound.canardoux.xyz/images/KoreaStandsWithUkraine.jpg). [Festival Cannes stands with Ukraine](https://flutter-sound.canardoux.xyz/images/CannesUkraine.png)
+## 9.2.13
 
 ## 9.2.12
 
-- [Peace For Ukraine](https://flutter-sound.canardoux.xyz/images/2-year-old-irish-girl-ukrainian.jpg)
-- [Europe Stand With Ukraine](https://flutter-sound.canardoux.xyz/images/stand-with-ukraine.png)
-- Fix audio recording issue with 16Khz recording devices [#885](https://github.com/Canardoux/flutter_sound/issues/885). Pull Request [#5](https://github.com/Canardoux/flutter_sound_core/pull/5). Thanks to [Allen](https://github.com/fallenpanda1) for his contribution.
-
 ## 9.2.10
-
-- [Close the sky over Ukraine](https://flutter-sound.canardoux.xyz/images/close-the-sky.jpeg)
 
 ## 9.2.9
 
@@ -32,7 +24,6 @@ toc: false
 
 ## 9.2.1
 
-- [Pray For Ukraine](https://flutter-sound.canardoux.xyz/images/PrayForUkraine.png)
 - Voice Porcessing Feature [VoiceProcessing feature for iOS #870](https://github.com/Canardoux/flutter_sound/pull/870). Thank you [Antonio](https://github.com/acalatrava) for the Pull Request.
 
 ## 9.1.9
@@ -145,11 +136,11 @@ Fix Bug `FlautoBackgroundAudioService requires explicit value for android:export
 
 ## 8.1.3
 
-- Temporary fix on [#665](https://github.com/canardoux/flutter_sound/issues/665) .  Pull Request [#677](https://github.com/canardoux/flutter_sound/pull/677) that was provided by @aaassseee . Thanks to him :-)
+- Temporary fix on [#665](https://github.com/canardoux/flutter_sound/issues/665) . Pull Request [#677](https://github.com/canardoux/flutter_sound/pull/677) that was provided by @aaassseee . Thanks to him :-)
 
 ## 8.1.1
 
-- flutter_sound_core is now published on `JitPack` and not anymore on `jfrog/bintray`.  [#658](https://github.com/canardoux/flutter_sound/issues/658)
+- flutter_sound_core is now published on `JitPack` and not anymore on `jfrog/bintray`. [#658](https://github.com/canardoux/flutter_sound/issues/658)
 
 ## 8.0.2
 
@@ -272,7 +263,7 @@ The two simple examples doing recording did not ask for recording permission. [#
 
 ## 6.4.6
 
-- Fixes a bug in `setAudioFocus()` when  the focus parameter is `t_AUDIO_FOCUS.requestFocus` [#537](https://github.com/dooboolab/flutter_sound/issues/537)
+- Fixes a bug in `setAudioFocus()` when the focus parameter is `t_AUDIO_FOCUS.requestFocus` [#537](https://github.com/dooboolab/flutter_sound/issues/537)
 
 ## 6.4.5
 
@@ -325,7 +316,6 @@ The two simple examples doing recording did not ask for recording permission. [#
 - The loop example, (from the recorder to the player) has now a delay < 1 sec. [#479](https://github.com/dooboolab/flutter_sound/issues/479) and [#90](https://github.com/dooboolab/flutter_sound/issues/90)
 - Fix compilation errors of the examples in LITE flavor [#483](https://github.com/dooboolab/flutter_sound/issues/483)
 
-
 ## 6.1.2
 
 - Playback from a remote URL [#470](https://github.com/dooboolab/flutter_sound/issues/470)
@@ -353,10 +343,10 @@ The two simple examples doing recording did not ask for recording permission. [#
 - Flutter Sound **FULL** is now linked (again) with mobile-ffmpeg-audio 4.3.1.LTS. Please, look to [the migration guide](doc/migration_6.x.x.md#migration-from-5xx-to-6xx)
 - Fix a concurrency bug between `whenFinished()` and `updateProgress()` [#441](https://github.com/dooboolab/flutter_sound/issues/441)
 - Android : minAndroidSdk is 18. (Tested on a SDK 18 emulator). SDK 18 is fine for the FlutterSoundPlayer, but the FlutterSoundRecorder needs at least 23. [#400](https://github.com/dooboolab/flutter_sound/issues/400)
-- New helper API verb : [pcmToWave()](doc/helper.md#pcmtowave)  to add a WAVE header in front of a Raw PCM record
-- New helper API verb : [pcmToWaveBuffer()](doc/helper.md#pcmtowavebuffer)  to add a WAVE header in front of a Raw PCM buffer
-- New helper API verb : [waveToPCM()](doc/helper.md#waveToPCM)  to remove a WAVE header in front of a Wave record
-- New helper API verb : [waveToPCMBuffer()](doc/helper.md#waveToPCMBuffer)  to remove a WAVE header in front of a Wave buffer
+- New helper API verb : [pcmToWave()](doc/helper.md#pcmtowave) to add a WAVE header in front of a Raw PCM record
+- New helper API verb : [pcmToWaveBuffer()](doc/helper.md#pcmtowavebuffer) to add a WAVE header in front of a Raw PCM buffer
+- New helper API verb : [waveToPCM()](doc/helper.md#waveToPCM) to remove a WAVE header in front of a Wave record
+- New helper API verb : [waveToPCMBuffer()](doc/helper.md#waveToPCMBuffer) to remove a WAVE header in front of a Wave buffer
 - [startRecorder()](doc/recorder.md#startrecorder) can now record **Raw PCM Integers/Linear 16** files, both on iOS and Android (Look to a [PCM discussion, here](doc/codec.md#note-on-raw-pcm-and-wave-files))
 - [startplayer()](doc/recorder.md#startplayer) can now play **Raw PCM Integers/Linear 16** files, both on iOS and Android (Look to a [PCM discussion, here](doc/codec.md#note-on-raw-pcm-and-wave-files))
 - Fix concurrency bug, when the App does a `stopRecorder()` or `pauseRecorder()` during `recorderTicker()` processing, [#443](https://github.com/dooboolab/flutter_sound/issues/443)
@@ -373,13 +363,13 @@ The two simple examples doing recording did not ask for recording permission. [#
 ## 5.1.0
 
 - Add a semaphore so that the App cannot do several call to Flutter Sound at the same time [#374](https://github.com/dooboolab/flutter_sound/issues/374)
-- On iOS : the "NowPlaying" info on the lockscreen is removed when the sound is finished or when the App does a ```stopPlayer()```. Add parameter ```removeUIWhenStopped``` to ```startPlayerFromTrack()```. (iOS only).
-- On iOS : the "NowPlaying" progress bar on the lockscreen is uptodated when the App does a ```seekToPlayer()``` [#364](https://github.com/dooboolab/flutter_sound/issues/364)
-- On iOS : Add parameter ```defaultPauseResume``` to ```startPlayerFromTrack()```. (iOS only).
-- On iOS : Add API verb ```getProgress()```. (iOS only).
-- On iOS : Add API verb ```getPlayerState()```. (iOS only).
-- On iOS : Add API verb ```nowPlaying()```. (iOS only).
-- On iOS : Add API verb ```setUIProgressBar()```. (iOS only). [#376](https://github.com/dooboolab/flutter_sound/issues/376)
+- On iOS : the "NowPlaying" info on the lockscreen is removed when the sound is finished or when the App does a `stopPlayer()`. Add parameter `removeUIWhenStopped` to `startPlayerFromTrack()`. (iOS only).
+- On iOS : the "NowPlaying" progress bar on the lockscreen is uptodated when the App does a `seekToPlayer()` [#364](https://github.com/dooboolab/flutter_sound/issues/364)
+- On iOS : Add parameter `defaultPauseResume` to `startPlayerFromTrack()`. (iOS only).
+- On iOS : Add API verb `getProgress()`. (iOS only).
+- On iOS : Add API verb `getPlayerState()`. (iOS only).
+- On iOS : Add API verb `nowPlaying()`. (iOS only).
+- On iOS : Add API verb `setUIProgressBar()`. (iOS only). [#376](https://github.com/dooboolab/flutter_sound/issues/376)
 - Fixes bug [#380](https://github.com/dooboolab/flutter_sound/issues/380), [#385](https://github.com/dooboolab/flutter_sound/pull/385)
 - Fixes bug "AudioFlags and AudioSource not work as expect " [#366](https://github.com/dooboolab/flutter_sound/issues/366), [#372](https://github.com/dooboolab/flutter_sound/pull/372), [#381](https://github.com/dooboolab/flutter_sound/pull/381)
 - New parameters in the `SoundPlayerUI` constructors for specifying colors, text style and slider style. [#397](https://github.com/dooboolab/flutter_sound/issues/397)
@@ -439,7 +429,6 @@ Error returns from iOS in FlutterSoundPlayer.m was wrong : [#350](https://github
 - Adds a new parameter `whenPaused:` to the `startPlayerFromTrack()` function. [#314](https://github.com/dooboolab/flutter_sound/issues/314)
 - Fix bug for displaying a remote albumArt on Android. [#290](https://github.com/dooboolab/flutter_sound/issues/290)
 
-
 ## 3.1.10
 
 - Trying to catch Android crash during a dirty Timer. [#289](https://github.com/dooboolab/flutter_sound/issues/289)
@@ -455,16 +444,15 @@ Error returns from iOS in FlutterSoundPlayer.m was wrong : [#350](https://github
 ## 3.1.7
 
 - Codec PCM for recorder on iOS
-- Optional argument ```requestPermission``` before ```startRecorder()``` so that the App can control itself the recording permissions. [#283](https://github.com/dooboolab/flutter_sound/pull/283)
-
+- Optional argument `requestPermission` before `startRecorder()` so that the App can control itself the recording permissions. [#283](https://github.com/dooboolab/flutter_sound/pull/283)
 
 ## 3.1.6+1
 
 - Fix a bug when initializing for Flutter Embedded V1 on Android [#267](https://github.com/dooboolab/flutter_sound/issues/267)
-- Add _removePlayerCallback, _removeRecorderCallback() and _removeDbPeakCallback() inside release() [#248](https://github.com/dooboolab/flutter_sound/pull/248)
+- Add \_removePlayerCallback, \_removeRecorderCallback() and \_removeDbPeakCallback() inside release() [#248](https://github.com/dooboolab/flutter_sound/pull/248)
 - Fix conflict with permission_handler 5.x.x [#274](https://github.com/dooboolab/flutter_sound/pull/274)
-- On iOS, ```setMeteringEnabled:YES``` is called during ```setDbLevelEnabled()``` [#252](https://github.com/dooboolab/flutter_sound/pull/252), [#251](https://github.com/dooboolab/flutter_sound/issues/251)
-- The call to ```initialize()``` is now optional [#271](https://github.com/dooboolab/flutter_sound/issues/271)
+- On iOS, `setMeteringEnabled:YES` is called during `setDbLevelEnabled()` [#252](https://github.com/dooboolab/flutter_sound/pull/252), [#251](https://github.com/dooboolab/flutter_sound/issues/251)
+- The call to `initialize()` is now optional [#271](https://github.com/dooboolab/flutter_sound/issues/271)
 - README : [#265](https://github.com/dooboolab/flutter_sound/issues/265)
 
 ## 3.1.5

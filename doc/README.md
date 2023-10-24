@@ -7,13 +7,6 @@ permalink: readme.html
 summary: The Flutter Sound documentation.
 ---
 
-{% include image.html file="CannesUkraine.png"  caption="French Feminist during Cannes Festival (France)" %}
-{% include image.html file="KoreaStandsWithUkraine.jpg"  caption="Korean girls stand with Ukraine" %}
-{% include image.html file="stand-with-ukraine.png"  caption="Europe Stand With Ukraine" %}
-{% include image.html file="2-year-old-irish-girl-ukrainian.jpg"  caption="Peace for Ukraine" %}
-{% include image.html file="close-the-sky.jpeg"  caption="Close the sky over Ukraine" %}
-{% include image.html file="banner.png"  caption="Stand up For Ukraine : Street Art" %}
-
 ![pub version](https://img.shields.io/pub/v/flutter_sound.svg?style=flat-square)
 
 Flutter Sound is a set of libraries which deal with audio :
@@ -28,14 +21,14 @@ Flutter Sound is a set of libraries which deal with audio :
 
 Flutter Sound is a library package allowing you to play and record audio for :
 
-* iOS
-* Android
-* Web
+- iOS
+- Android
+- Web
 
 Flutter Sound provides both a high level API and widgets for:
 
-* play audio
-* record audio
+- play audio
+- record audio
 
 Flutter Sound can be used to play a beep from an asset all the way up to implementing a complete media player.
 
@@ -43,15 +36,15 @@ The API is designed so you can use the supplied widgets or roll your own.
 
 The Flutter Sound package supports playback from:
 
-* Assets
-* Files
-* URL
-* Streams
+- Assets
+- Files
+- URL
+- Streams
 
 ## SDK requirements
 
-* Flutter Sound requires an iOS 10.0 SDK \(or later\)
-* Flutter Sound requires an Android 21 \(or later\)
+- Flutter Sound requires an iOS 10.0 SDK \(or later\)
+- Flutter Sound requires an Android 21 \(or later\)
 
 ## Examples \(Demo Apps\)
 
@@ -63,20 +56,20 @@ Flutter Sound comes with several Demo/Examples :
 
 The Flutter Sound package includes the following features :
 
-* Play and Record τ or music with various codecs. \(See [the supported codecs here](guides_codec.html)\)
-* Play local or remote files specified by their URL.
-* Play assets.
-* Record to a live stream Stream
-* Playback from a live Stream
-* The App playback can be controlled from the device lock screen or from an Apple watch
-* Play audio using the built in \[SoundPlayerUI\] Widget.
-* Roll your own UI utilizing the τ api.
-* Record audio using the builtin \[SoundRecorderUI\] Widget.
-* Roll your own Recording UI utilizing the τ api.
-* Support for releasing/resuming resources when the app pauses/resumes.
-* Record to a Dart Stream
-* Playback from a Dart Stream
-* The App playback can be controlled from the device lock screen or from an Apple watch
+- Play and Record τ or music with various codecs. \(See [the supported codecs here](guides_codec.html)\)
+- Play local or remote files specified by their URL.
+- Play assets.
+- Record to a live stream Stream
+- Playback from a live Stream
+- The App playback can be controlled from the device lock screen or from an Apple watch
+- Play audio using the built in \[SoundPlayerUI\] Widget.
+- Roll your own UI utilizing the τ api.
+- Record audio using the builtin \[SoundRecorderUI\] Widget.
+- Roll your own Recording UI utilizing the τ api.
+- Support for releasing/resuming resources when the app pauses/resumes.
+- Record to a Dart Stream
+- Playback from a Dart Stream
+- The App playback can be controlled from the device lock screen or from an Apple watch
 
 ## Supported platforms
 
@@ -94,12 +87,12 @@ use our library in private/close sources App was in a copyright infringement.
 
 To solve this issue, we forked Flutter Sound 8.3 to two different branches.
 
-* Flutter Sound 8.4 (this fork) is published under the Mozilla Public License 2.0.
-* [The τ Sound Project 9.0](https://pub.dev/packages/tau_sound) is published under a pure GPL License.
+- Flutter Sound 8.4 (this fork) is published under the Mozilla Public License 2.0.
+- [The τ Sound Project 9.0](https://pub.dev/packages/tau_sound) is published under a pure GPL License.
 
 Flutter Sound is copyrighted by Dooboolab (2018, 2019, 2020, 2021).
 
-* Flutter Sound is now released under the permissive Mozilla license which has a **weak** *copyleft* clause: if you modify some of Flutter Sound code you must publish your modifications under the MPL license too. But you may publish your App with any license you want. Even a Proprietary/Close Sources License (shame on you!).
+- Flutter Sound is now released under the permissive Mozilla license which has a **weak** _copyleft_ clause: if you modify some of Flutter Sound code you must publish your modifications under the MPL license too. But you may publish your App with any license you want. Even a Proprietary/Close Sources License (shame on you!).
 
 ## We need help
 
@@ -116,4 +109,3 @@ Actually, my main project is the GPL [Tau Sound Project 9.0](https://tau.canardo
 This is free and this will reassure me that **I do not spend most of my life for nobody**." %}
 
 <script data-name="BMC-Widget" src="http://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="larpoux" data-description="Support me on Buy me a coffee!" data-message="Thank you for visiting. You can now buy me a coffee!" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
-
